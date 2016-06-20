@@ -5,7 +5,7 @@ defmodule RectangularRoom do
   end
 
   def convert_to_metric(area) do
-    area * 0.09290304
+    Float.round(area * 0.09290304, 3)
   end
 
 end
